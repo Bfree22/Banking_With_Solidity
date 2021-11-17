@@ -27,3 +27,7 @@ Keep in mind the interest earned can't be coming out of nowhere, there needs to 
 Lastly, there needs to be a withdraw function so we can take out the funds we deposited with the earned interest.
 
 
+
+Solidity Joyride Quest on Questbook: https://questbook.notion.site/Questbook-Learn-Web3-a5f4be8b107f4647a91fe84e6aa7e722
+
+
