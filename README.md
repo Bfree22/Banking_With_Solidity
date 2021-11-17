@@ -7,18 +7,18 @@ Start by selecting the appropriate compiler version, then name the contract.
 
 We must then create a function that retrieves the contract balance. See below for reference.
 
-![balance]()
+![balance](https://github.com/Bfree22/Banking_With_Solidity/blob/master/Images/contract_balance.png)
 
 
 There will be two mappings, one for the balances and one for the deposit timestamps. 
 
 Next, another function is needed to initiate the deposit. We will do this by adding two uint variables principal and timeElapsed. 
 
-![function]()
+![function](https://github.com/Bfree22/Banking_With_Solidity/blob/master/Images/function_.png)
 
-Now that the user can deposit funds into the contract, we need the funds to begin earning interest on the deposited amount. Do this by creating another function called 'getBalance' or any other name you like. 
+Now that the user can deposit funds into the contract, we need the funds to begin earning interest on the deposited amount. Do this by creating another function called 'getBalance' or any other name you like. This will increase your balance by the assigned interest given when creating the contract. Simply click 'getBalance' as shown below to see your balance increase!
 
-![interest]()
+![interest](https://github.com/Bfree22/Banking_With_Solidity/blob/master/Images/interest.gif)
 
 
 Keep in mind the interest earned can't be coming out of nowhere, there needs to be funds into the smart contract so the interest can be earned from the deposited amount instead of from the depositor. Create another function that adds funds to the smart contract.
